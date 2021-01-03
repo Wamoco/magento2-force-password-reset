@@ -1,7 +1,7 @@
 {
     "name": "wamoco/magento2-force-password-reset",
-    "description": "TBD",
-    "version": "1.0.0",
+    "description": "Magento 2 Module to force customers password reset",
+    "version": "1.0.1",
     "type": "magento2-module",
     "require": {
         "wamoco/magento2-common" : ">=1.0.0"
@@ -11,7 +11,7 @@
             "Source/registration.php"
         ],
         "psr-4": {
-            "Wamoco\\ForcePasswordReset\\": ""
+            "Wamoco\\ForcePasswordReset\\": "Source/"
         }
     }
 }
